@@ -102,7 +102,7 @@
                                     <a class="logo-a" href="{{ route('home.index') }}" title="Love Economy Church">
                                         <h1 class="logo-h1 logo-not-show-txt">Love Economy Church</h1>
                                         <img class="logo-image logo-dark" src="img/demo/logo-loading.png"
-                                            alt="Love Economy Church" />
+     alt="Love Economy Church" style="width: 110px; height: auto;" />
                                         <span class="logo-light"><img class="logo-image" src="img/demo/logo-loading.png"
                                                 alt="Love Economy Church" /></span>
                                     </a>
@@ -632,8 +632,8 @@
                         <div class="footer-container">
                             <div class="span6">
                                 <div id="logo-footer">
-                                    <a href="index.html" title="Air Theme">
-                                        <img class="logo-footer-img" src="img/demo/logo_dark.png" alt="Air Theme" />
+                                    <a href="{{ route('home.index')}}" title="Love Economy UK">
+                                        <img class="logo-footer-img" src="img/demo/logo-loading.png" alt="Love Economy UK" />
                                     </a>
                                 </div>
                             </div>
