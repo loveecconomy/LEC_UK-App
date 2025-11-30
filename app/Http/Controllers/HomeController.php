@@ -11,15 +11,16 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('layouts.app');
+        // return view('layouts.app');
+        return view ('pages.index');
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Display the Job Portal
      */
-    public function create()
+    public function index_portal()
     {
-        //
+        return view('pages.job_portal');
     }
 
     /**
