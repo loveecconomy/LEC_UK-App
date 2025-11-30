@@ -26,7 +26,7 @@
             </div>
             
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="#about" class="text-white px-8 py-4 rounded-full font-semibold custom-blue-bg hover:opacity-90 transition-opacity inline-flex items-center justify-center">
+                <a href="{{ route('pages.new-here') }}" class="text-white px-8 py-4 rounded-full font-semibold custom-blue-bg hover:opacity-90 transition-opacity inline-flex items-center justify-center">
                     New Here?
                     <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -43,7 +43,7 @@
     <section id="sermons" class="py-24 lg:py-32 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-4 lg:px-4">
             <div class="max-w-4xl mx-auto text-center mb-16">
-                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900">Latest Sermon</h2>
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900">Watch Us</h2>
                 <div class="section-divider"></div>
             </div>
             
@@ -53,25 +53,26 @@
                         <div class="absolute inset-0 bg-cover bg-center rounded-3xl" style="background-image: url('{{ asset('images/bg_2.JPG') }}');"></div>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent rounded-3xl"></div>
                         <div class="absolute inset-0 flex items-center justify-center">
-                            <button class="group bg-white/95 hover:bg-white rounded-full p-10 transition-all transform hover:scale-110">
+                            <button  class="group bg-white/95 hover:bg-white rounded-full p-10 transition-all transform hover:scale-110">
+                                <a  target="_blank" href="https://www.youtube.com/@bishopisaacotiboateng">
                                 <svg class="w-24 h-24 ml-3 custom-blue" fill="currentColor" viewBox="0 0 20 20">
                                     <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
                                 </svg>
+                                </a>
                             </button>
                         </div>
                     </div>
                     <div class="p-10 lg:p-14">
                         <div class="flex items-center gap-3 mb-4">
                             <!-- <span class="px-4 py-1.5 rounded-full text-sm font-semibold text-white custom-blue-bg">Latest</span> -->
-                            <span class="text-gray-500 text-sm">November 9, 2025</span>
+                            <!-- <span class="text-gray-500 text-sm">November 9, 2025</span> -->
                         </div>
-                        <h3 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Sermon Title Goes Here</h3>
+                        <h3 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">All the words of this life</h3>
                         <!-- <p class="text-lg text-gray-600 mb-6 font-medium">Speaker Name</p> -->
                         <p class="text-gray-700 leading-relaxed mb-10 text-lg max-w-3xl">
-                            Join us for this powerful message about building a nation where Christ is all and in all. 
-                            Discover how we can dispense Christ with love through the power of the Holy Spirit.
+                           Welcome to a new world - a new land called Christ. See your life transform before your eyes. Welcome to Christ World.
                         </p>
-                        <a href="#" class="inline-flex items-center text-white px-8 py-4 rounded-full font-semibold text-lg group transition-all custom-blue-bg">
+                        <a target="_blank" href="https://www.youtube.com/@bishopisaacotiboateng" class="inline-flex items-center text-white px-8 py-4 rounded-full font-semibold text-lg group transition-all custom-blue-bg">
                             Watch Now
                             <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -111,7 +112,7 @@
                                 <h3 class="text-3xl font-bold">New Here?</h3>
                             </div>
                             <p class="text-lg text-gray-200 mb-6">Learn more about who we are and what we believe as a church family.</p>
-                            <a href="#about" class="inline-flex items-center bg-white text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all group">
+                            <a href="{{ route('pages.new-here') }}" class="inline-flex items-center bg-white text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all group">
                                 Learn More
                                 <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -128,7 +129,7 @@
                             <p class="text-lg text-gray-600 leading-relaxed">
                                 Our community is built on love, grace, and the power of the Holy Spirit. We believe in building a nation where Christ is all and in all, and we'd love for you to be part of this journey.
                             </p>
-                            <a href="#about" class="inline-flex items-center text-lg font-semibold group text-gray-900">
+                            <a href="{{ route('pages.new-here') }}" class="inline-flex items-center text-lg font-semibold group text-gray-900">
                                 Explore More About Us
                                 <svg class="w-6 h-6 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -154,7 +155,7 @@
                                 <h3 class="text-3xl font-bold">Next Steps</h3>
                             </div>
                             <p class="text-lg text-gray-200 mb-6">Take your next step in your journey of faith and spiritual growth.</p>
-                            <a href="#get-involved" class="inline-flex items-center bg-white/20 backdrop-blur-md text-white border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white/30 transition-all group w-fit">
+                            <a href="{{ route('pages.next-steps') }}" class="inline-flex items-center bg-white/20 backdrop-blur-md text-white border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white/30 transition-all group w-fit">
                                 Get Started
                                 <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -177,7 +178,7 @@
                                 <h3 class="text-3xl font-bold">Community</h3>
                             </div>
                             <p class="text-lg text-gray-200 mb-6">Connect with others through small groups, events, and community gatherings.</p>
-                            <a href="#get-involved" class="inline-flex items-center bg-white/20 backdrop-blur-md text-white border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white/30 transition-all group w-fit">
+                            <a href="{{ route('pages.community') }}" class="inline-flex items-center bg-white/20 backdrop-blur-md text-white border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white/30 transition-all group w-fit">
                                 Join Community
                                 <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -206,7 +207,7 @@
                                     <p class="text-xl text-gray-200 mb-8 leading-relaxed">
                                         Partner with us as we build a nation for Christ and impact lives. Your generosity helps us reach more people and make a lasting difference.
                                     </p>
-                                    <a href="#contact" class="inline-flex items-center bg-white text-gray-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all group">
+                                    <a href="{{ route('pages.give') }}" class="inline-flex items-center bg-white text-gray-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all group">
                                         Give Now
                                         <svg class="w-6 h-6 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -337,6 +338,14 @@
             </div>
             
             <!-- Featured Event - Large Hero Style -->
+            @php
+                // Calculate next Sunday (always the upcoming Sunday, not today if today is Sunday)
+                $today = \Carbon\Carbon::now();
+                $nextSunday = $today->copy()->addDay()->next(\Carbon\Carbon::SUNDAY);
+                
+                // Calculate next Wednesday (always the upcoming Wednesday, not today if today is Wednesday)
+                $nextWednesday = $today->copy()->addDay()->next(\Carbon\Carbon::WEDNESDAY);
+            @endphp
             <div class="mb-16">
                 <div class="relative aspect-[21/9] rounded-3xl overflow-hidden group">
                     <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('{{ asset('images/bg_1.JPG') }}');"></div>
@@ -347,14 +356,14 @@
                                 <div class="text-white">
                                     <div class="flex items-center gap-4 mb-6">
                                         <div class="flex flex-col items-center justify-center custom-blue-bg rounded-2xl px-8 py-6 min-w-[100px]">
-                                            <span class="text-4xl font-bold leading-none">21</span>
-                                            <span class="text-lg font-semibold uppercase tracking-wider">Dec</span>
+                                            <span class="text-4xl font-bold leading-none">{{ $nextSunday->format('d') }}</span>
+                                            <span class="text-lg font-semibold uppercase tracking-wider">{{ $nextSunday->format('M') }}</span>
                                         </div>
                                         <div>
-                                            <div class="inline-block px-4 py-2 bg-white/20 backdrop-blur-md rounded-full text-sm font-semibold mb-3">
+                                            <!-- <div class="inline-block px-4 py-2 bg-white/20 backdrop-blur-md rounded-full text-sm font-semibold mb-3">
                                                 Featured Event
-                                            </div>
-                                            <h3 class="text-4xl lg:text-5xl font-bold mb-4">Event Name</h3>
+                                            </div> -->
+                                            <h3 class="text-4xl lg:text-5xl font-bold mb-4">Sunday Service</h3>
                                             <div class="flex items-center gap-4 text-gray-200 mb-6">
                                                 <div class="flex items-center gap-2">
                                                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -410,21 +419,21 @@
                             <div class="absolute inset-0 bg-gradient-to-t from-black/95 via-black/70 to-black/50"></div>
                             <div class="absolute top-6 right-6">
                                 <div class="custom-blue-bg rounded-2xl px-5 py-4 text-center shadow-lg">
-                                    <div class="text-3xl font-bold leading-none text-white">28</div>
-                                    <div class="text-xs font-semibold uppercase tracking-widest text-white/90 mt-1">Dec</div>
+                                    <div class="text-3xl font-bold leading-none text-white">{{ $nextWednesday->format('d') }}</div>
+                                    <div class="text-xs font-semibold uppercase tracking-widest text-white/90 mt-1">{{ $nextWednesday->format('M') }}</div>
                                 </div>
                             </div>
                             <div class="absolute inset-0 flex flex-col justify-end p-8 lg:p-10 text-white">
                                 <div class="mb-6">
-                                    <h3 class="text-3xl md:text-3xl lg:text-4xl font-bold mb-4 leading-tight">Sabbath Sunday</h3>
+                                    <h3 class="text-3xl md:text-3xl lg:text-4xl font-bold mb-4 leading-tight">LC Live Service</h3>
                                     <div class="flex items-center gap-2 mb-3">
                                         <svg class="w-5 h-5 text-white/80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                         </svg>
-                                        <p class="text-lg font-medium text-white/90">No Service</p>
+                                        <p class="text-lg font-medium text-white/90">Love Economy Church</p>
                                     </div>
-                                    <p class="text-base text-white/80 leading-relaxed">A day of rest and reflection</p>
+                                    <p class="text-base text-white/80 leading-relaxed">Come fellowship with the family and encounter the presence of God.</p>
                                 </div>
                                 <a href="#contact" class="inline-flex w-fit items-center bg-white text-gray-900 px-7 py-4 rounded-full font-semibold text-base hover:bg-gray-100 transition-all group/link shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
                                     Learn More

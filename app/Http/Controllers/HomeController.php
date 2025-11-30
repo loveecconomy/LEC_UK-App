@@ -24,6 +24,38 @@ class HomeController extends Controller
     }
 
     /**
+     * Display the New Here page
+     */
+    public function newHere()
+    {
+        return view('pages.new-here');
+    }
+
+    /**
+     * Display the Next Steps page
+     */
+    public function nextSteps()
+    {
+        return view('pages.next-steps');
+    }
+
+    /**
+     * Display the Community page
+     */
+    public function community()
+    {
+        return view('pages.community');
+    }
+
+    /**
+     * Display the Give page
+     */
+    public function give()
+    {
+        return view('pages.give');
+    }
+
+    /**
      * Store a newly created resource in storage.
      */
     public function store(Request $request)
