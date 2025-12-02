@@ -598,6 +598,10 @@
                         <p class="text-gray-300 mb-2 text-lg">2D Arodene Road</p>
                         <p class="text-gray-300 mb-2 text-lg">Brixton Hill</p>
                         <p class="text-gray-300 text-lg">London SW2 2BH</p>
+                        {{-- <p class="text-gray-300 text-lg">Rev Joseph</p>
+                        <p class="text-gray-300 text-lg">
+                            Phone: <a href="tel:+447947457734" class="underline text-white hover:text-gray-200">+44 7947 457734</a>
+                        </p> --}}
                     </div>
                     
                     <div class="bg-white/10 backdrop-blur-md rounded-3xl p-10">
@@ -612,8 +616,13 @@
                         <p class="text-gray-300 mb-4 text-lg">
                             Email: <a href="mailto:info@loveeconomyuk.org" class="underline font-medium text-white hover:text-gray-200">info@loveeconomyuk.org</a>
                         </p>
+                         <p class="text-gray-300 text-lg">Rev Joseph</p>
                         <p class="text-gray-300 text-lg">
-                            Phone: <a href="tel:+441234567890" class="underline text-white hover:text-gray-200">+44 (0) 123 456 7890</a>
+                            Phone: <a href="tel:+447947457734" class="underline text-white hover:text-gray-200">+44 7947 457734</a>
+                        </p>
+                         <p class="text-gray-300 text-lg">Pastor Evans</p>
+                          <p class="text-gray-300 text-lg">
+                            Phone: <a href="tel:+447415480715" class="underline text-white hover:text-gray-200">+44 7415 480715</a>
                         </p>
                     </div>
                 </div>
