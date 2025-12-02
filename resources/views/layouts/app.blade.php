@@ -160,7 +160,7 @@
                     <a href="/#sermons" class="px-5 py-2.5 text-gray-900 transition-colors font-medium rounded-lg hover:bg-gray-50">Sermons</a>
                     <a href="/#get-involved" class="px-5 py-2.5 text-gray-900 transition-colors font-medium rounded-lg hover:bg-gray-50">Get Involved</a>
                     <a href="/#contact" class="px-5 py-2.5 text-gray-900 transition-colors font-medium rounded-lg hover:bg-gray-50">Contact</a>
-                    <a href="{{ route('job.index')}}" class="px-5 py-2.5 text-gray-900 transition-colors font-medium rounded-lg hover:bg-gray-50">Jobs</a>
+                    {{-- <a href="{{ route('job.index')}}" class="px-5 py-2.5 text-gray-900 transition-colors font-medium rounded-lg hover:bg-gray-50">Jobs</a> --}}
                     <a href="/#contact" class="ml-2 text-white px-7 py-2.5 rounded-full transition-all font-semibold hover:scale-105 custom-blue-bg">Give</a>
                 </div>
                 
@@ -181,7 +181,7 @@
                 <a href="#get-involved" class="block px-4 py-3 text-gray-900 hover:bg-gray-50 rounded-lg transition-colors font-medium">Get Involved</a>
                 <a href="#contact" class="block px-4 py-3 text-gray-900 hover:bg-gray-50 rounded-lg transition-colors font-medium">Contact</a>
                 <a href="#contact" class="block text-white px-6 py-3 rounded-full transition-colors font-semibold text-center mt-4 custom-blue-bg">Give</a>
-                <a href="{{ route('job.index')}}" class="block text-white px-6 py-3 rounded-full transition-colors font-semibold text-center mt-4 custom-blue-bg">Jobs</a>
+                {{-- <a href="{{ route('job.index')}}" class="block text-white px-6 py-3 rounded-full transition-colors font-semibold text-center mt-4 custom-blue-bg">Jobs</a> --}}
             </div>
         </div>
     </nav>
