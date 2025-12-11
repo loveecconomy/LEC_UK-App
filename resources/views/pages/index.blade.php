@@ -22,7 +22,7 @@
             
             <div class="mb-10">
                 <p class="text-sm text-gray-300 uppercase tracking-wider mb-2">Join Us on Sundays</p>
-                <p class="text-2xl md:text-3xl font-bold">9:30AM + 11:00AM</p>
+                <p class="text-2xl md:text-3xl font-bold">11:00AM + 2:00PM</p>
             </div>
             
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
