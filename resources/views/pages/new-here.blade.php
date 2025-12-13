@@ -60,7 +60,7 @@
                                 </div>
                                 <div>
                                     <h4 class="text-xl font-bold text-gray-900 mb-2">Service Times</h4>
-                                    <p class="text-gray-600 leading-relaxed">Join us on Sundays at 9:30 AM or 11:00 AM. Our services typically last about 90 minutes and include worship, teaching, and fellowship.</p>
+                                    <p class="text-gray-600 leading-relaxed">Join us on Sundays at 11:00 AM  or 2:00 PM. Our services typically last about 90 minutes and include worship, teaching, and fellowship.</p>
                                 </div>
                             </div>
                             
